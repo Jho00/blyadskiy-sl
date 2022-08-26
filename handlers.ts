@@ -69,10 +69,16 @@ export const getSosiHandler = (bot: TelegramBot) =>
     const chatId = msg.chat.id;
 
     if (msg.from) {
-        store.addUser(chatId,msg.from);
+        store.addUser(chatId, msg.from);
     }
 
     const user = store.findRandomUser(chatId);
+
+    const isEqual = msg.from?.username == user.username;
+    if (isEqual) {
+        bot.sendMessage(chatId, `@${user.username} выпал сам себе, теперь придется теребить значимые места}`);
+        return;
+    }
       
     bot.sendMessage(chatId, `Целуй взасос @${user.username}`);
  }

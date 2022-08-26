@@ -47,4 +47,82 @@ export const tasks = [
         needObject: false,
         message: "Расскажи стихотворение"
     },
+    {
+        id: 9,
+        needActor: false, 
+        needObject: false,
+        message: "Каждый снимает что-то себя (обувь не в счёт)"
+    },
+    {
+        id: 10,
+        needActor: true, 
+        needObject: false,
+        message: "Сфоткай котика / киску"
+    },
+    {
+        id: 11,
+        needActor: true, 
+        needObject: true,
+        message: "назови три качества, за которые ты любишь"
+    },
+    {
+        id: 12,
+        needActor: false, 
+        needObject: false,
+        message: "Каждый кладёт руку на колено соседу и сидит так 1,5 мин"
+    },
+    {
+        id: 13,
+        needActor: false, 
+        needObject: false,
+        message: "Каждый поёт по припеву любимой/душевной песни"
+    },
+    {
+        id: 14,
+        needActor: true, 
+        needObject: false,
+        message: "сфоткай Ахмеда при первой же возможности"
+    },
+    {
+        id: 15,
+        needActor: true, 
+        needObject: false,
+        message: "пришли фото любой оголённой части тела"
+    },
+    {
+        id: 16,
+        needActor: true, 
+        needObject: false,
+        message: "пришли любое душевное фото с пьянки"
+    },
+    {
+        id: 17,
+        needActor: true, 
+        needObject: false,
+        message: "запиши войс с прогнозом погоды завтра утром для этого чата"
+    },
+    {
+        id: 18,
+        needActor: true, 
+        needObject: true,
+        message: "назови три качества, за которые любишь"
+    },
+    {
+        id: 19,
+        needActor: true, 
+        needObject: true,
+        message: "пришли танец, который бы ты посвятил(а)"
+    },
+    {
+        id: 20,
+        needActor: true, 
+        needObject: true,
+        message: "ты должен купить коктейль при следующей встрече для "
+    },
+    {
+        id: 21,
+        needActor: false, 
+        needObject: false,
+        message: "Каждый делает комплимент соседу справа "
+    },
 ];
